@@ -1,3 +1,6 @@
+'''
+Вариант №4 : Броуновские острова
+'''
 from turtle import penup, pendown, goto, speed, mainloop
 from random import random
 from math import sqrt
