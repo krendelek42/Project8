@@ -29,9 +29,9 @@ def brown (x0,y0,x1,y1, disp, p, n=10, m=400):
      xm = (x0 + x1) / 2.0
      ym = (y0 + y1) / 2.0
      delta_1 = random() * sqrt(disp)
-     delta2 = random() * sqrt(disp)
-     brown(x0, y0, xm + delta2, ym + delta_1, disp / p, p, n - 1)
-     brown(xm + delta2, ym + delta_1, x1, y1, disp / p, p, n - 1)
+     delta_2 = random() * sqrt(disp)
+     brown(x0, y0, xm + delta_2, ym + delta_1, disp / p, p, n - 1)
+     brown(xm + delta_2, ym + delta_1, x1, y1, disp / p, p, n - 1)
 
 
 def main():
